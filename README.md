@@ -41,14 +41,11 @@ Dockerを使用したPythonとNeo4jの開発環境を構築方法を紹介して
 
 その他のパッケージのバージョンは docker-compose.yml と python_docker/Dockerfile と python_docker/requirements.txt を参照してください
 
-<p align="right">(<a href="#top">トップへ</a>)</p>
 
 ## ディレクトリ構成
 
 <!-- Treeコマンドを使ってディレクトリ構成を記載 -->
-❯ tree -a -I "node_modules|.next|.git|.pytest_cache|static" -L 2
-
-neo4j_docker_setup
+    neo4j_docker_setup
        ├ src
        |   ├ neo4j_test.py
        |   └ search_test.py
@@ -59,7 +56,6 @@ neo4j_docker_setup
        ├ .gitignore
        └ README.me
 
-<p align="right">(<a href="#top">トップへ</a>)</p>
 
 ## 環境構築
 <!-- コンテナの作成方法、パッケージのインストール方法など、開発環境構築に必要な情報を記載 -->
